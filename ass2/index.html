@@ -17,11 +17,14 @@
 
 
 <body>
+  <header>
 
 
 <nav class="navbar" id="top">
   <div class="container-fluid">
    <div class="navbar-header">
+    
+          
 
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -29,7 +32,14 @@
         <span class="icon-bar"></span> 
       </button>
 
-      <a class="navbar-brand" href="index.html">XYZ Restaurant</a>
+      <a class="navbar-brand" href="index.html" class="pull-left visible-md visible-lg visible-xs">
+            <img src="logo.jpg" width="60" height="60" class="center">
+            <a><h3> XYZ Restaurant</h3></a>
+      
+            </a>
+              
+          
+           
     </div>
 
     <div id="collapsable-nav" class="collapse navbar-collapse">
@@ -40,6 +50,8 @@
           <span class="glyphicon glyphicon-earphone"></span>
           <span>410-602-5008</span></a><div>We are open 24 x 7</div>
             </li>
+      </ul>
+      </div>      
 
     <div class="collapse" id="myNavbar">
       <ul class="nav navbar-nav visible-xs">
@@ -49,8 +61,25 @@
       </ul>
     </div>
 
+
+
   </div>
 </nav>
+</header>
+
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+
+
+  <div id="main-content" class="container-fluid">
+    <div class="jumbotron">
+      <img src="xyz.jpg" class="img-responsive visible-md visible-lg visible-xs">
+    </div>
+</div>
 
 <h1 class="main-title"><span class="glyphicon glyphicon-cutlery"></span> Menu</h1>
 
@@ -60,8 +89,10 @@
 
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="content-box">
+
       <p class="item-name">Chicken</p>
       <p>Indian chicken curry typically starts with whole spices, heated in oil. A sauce is then made with onions, ginger, garlic, and tomatoes, and powdered spices. Bone-in pieces of chicken are then added to the sauce, and simmered until cooked through. In south India, coconut and curry leaves are also common ingredients.Tender, flavorsome, succulent and sensational!<a href="#top">(Back to Top)</a></p>
+      <img src="chicken.jpg" width="220" class="img-responsive visible-lg visible-xs" >
     </div>
   </div>
 
@@ -69,6 +100,7 @@
     <div class="content-box">
       <p class="item-name">Paneer</p>
       <p>To make paneer butter masala, firstly onions, tomatoes & cashews are sauteed with spices. Then these are blended to a silky smooth puree which forms the curry base. This is further simmered with butter & spices to make the butter masala.Lastly cubed paneer is added to it along with the cream which makes it creamy & amazingly delicious. <a href="#top">(Back to Top)</a></p>
+      <img src="paneer.jpg" width="220" class="img-responsive visible-lg visible-xs" >
     </div>
   </div>
 
@@ -77,16 +109,14 @@
     <div class="content-box">
       <p class="item-name">Mutton</p>
       <p> Tender, flavorsome, succulent and sensational! If these words are enough to get you salivating, then these recipes are definitely going to take you to seventh heaven. From the classic Lamb Korma to Rajasthani Laal Maas, we bring you the best of mutton dishes. Mutton is a tough and strongly-flavored meat that needs to be marinated and cooked well to bring out its unique taste.<a href="#top">(Back to Top)</a></p>
+      <img src="mutton.jpg" width="220" class="img-responsive visible-lg visible-xs" >
     </div>
   </div>
 
 </div>
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
+  
+
+
 
 
 

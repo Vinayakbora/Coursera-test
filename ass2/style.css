@@ -1,4 +1,5 @@
 .container-fluid{
+  color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -113,4 +114,60 @@ body {
   color: white;
   text-align: left;
   padding-left: 15px;
+}
+
+h3 {
+  
+  float:left;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.center {
+   
+    padding-bottom: 5px;
+    
+}
+
+.container-fluid .jumbotron {
+  float: center;
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid .jumbotron {
+
+    margin-left: 280px;
+    width:65%;
+   
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-fluid .jumbotron {
+    background: url('xyz.jpg') no-repeat;
+    height: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .container-fluid .jumbotron {
+    background: url('xyz.jpg') no-repeat;
+   
+    height: 432px;
+  }
+}
+
+#call-btn {
+  
+  margin-left: 120px;
+
+}
+
+.content-box #dish .content-box {
+  background: url('chicken.jpg') no-repeat;
+  height: 20px;
+  width: 20px;
 }
