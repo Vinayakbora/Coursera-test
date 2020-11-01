@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #8d157b;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: black;
   border-radius: 0;
   border: 0;
 }
@@ -24,12 +24,12 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: purple;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 0;
   line-height: .75;
 }
@@ -136,7 +136,7 @@ body {
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('../images/st.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -300,8 +300,8 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+    background-color: black;
+    color: white;
   }
   #xs-deliver {
     margin-top: 5px;
