@@ -1,2 +1,2 @@
 # My-Restaurant
-Created my very own reataurant website.[Click here](https://vinayakbora.github.io/My-Restaurant/Restaurant/)
+Created my very own restaurant website.[Click Here](https://vinayakbora.github.io/My-Restaurant/Restaurant/)
