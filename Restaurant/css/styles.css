@@ -179,6 +179,8 @@ body {
 }
 
 #menu-categories-title + div {
+   font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 /* END MENU CATEGORIES PAGE */
